@@ -46,7 +46,7 @@ namespace EmployeeFetchApi
                 {
 
 
-                    table.AddRow(_employee.id.ToString(), _employee.employee_name, _employee.employee_age.ToString(), _employee.employee_salary.ToString(), _employee.profile_image);
+                    table.AddRow(_employee.id.ToString(), _employee.employee_name, _employee.employee_salary.ToString(), _employee.employee_age.ToString(), _employee.profile_image);
 
 
                 }
