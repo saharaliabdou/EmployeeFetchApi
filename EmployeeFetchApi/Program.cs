@@ -19,6 +19,7 @@ namespace EmployeeFetchApi
     {/// <summary>
      /// This application will do a call to this api "http://dummy.restapiexample.com/api/v1/employees"
      /// And then lists the employees in a table.
+     /// Table class found on github.
 
      /// </summary>
      /// <param name="args"></param>
@@ -40,6 +41,8 @@ namespace EmployeeFetchApi
 
                 // iterate over the values in data array:
                 // we have to iterate over data because we have multiple variables
+
+
                 Console.WriteLine(_employeestatus.status);
 
                 foreach (var _employee in _employeestatus.data)
